@@ -83,6 +83,8 @@ export type BotProps = {
     badgeBackgroundColor?: string;
     bubbleBackgroundColor?: string;
     bubbleTextColor?: string;
+    titleBackgroundColor?: string;
+    titleTextColor?: string;
     showTitle?: boolean;
     showAgentMessages?: boolean;
     title?: string;
