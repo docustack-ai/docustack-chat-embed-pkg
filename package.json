@@ -1,6 +1,6 @@
 {
   "name": "@docustack-ai/docustack-chat-embed-pkg",
-  "version": "1.0.10",
+  "version": "1.0.12",
   "description": "Javascript library to display docustack chatbot on your website",
   "type": "module",
   "main": "dist/index.js",
