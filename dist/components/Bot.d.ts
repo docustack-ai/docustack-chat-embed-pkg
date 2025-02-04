@@ -1,5 +1,5 @@
 import { FeedbackRatingType } from '@/queries/sendMessageQuery';
-import { BotMessageTheme, FooterTheme, TextInputTheme, UserMessageTheme, FeedbackTheme, DisclaimerPopUpTheme, DateTimeToggleTheme } from '@/features/bubble/types';
+import { BotMessageTheme, FooterTheme, TextInputTheme, UserMessageTheme, FeedbackTheme, DisclaimerPopUpTheme, DateTimeToggleTheme, ChatButtonTheme } from '@/features/bubble/types';
 import { FilePreview } from '@/components/inputs/textInput/components/FilePreview';
 export type FileEvent<T = EventTarget> = {
     target: T;
@@ -85,8 +85,7 @@ export type BotProps = {
     bubbleTextColor?: string;
     titleBackgroundColor?: string;
     titleTextColor?: string;
-    buttonColor?: string;
-    buttonTextColor?: string;
+    buttonTheme?: ChatButtonTheme;
     showTitle?: boolean;
     showAgentMessages?: boolean;
     title?: string;

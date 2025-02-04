@@ -1,3 +1,4 @@
+import { ChatButtonTheme } from '@/features/bubble/types';
 type Props = {
     renderHTML: boolean | undefined;
     customStyle: {
@@ -8,8 +9,7 @@ type Props = {
     bubbleBackgroundColor?: string;
     bubbleTextColor?: string;
     message: string;
-    buttonColor?: string;
-    buttonTextColor?: string;
+    buttonTheme?: ChatButtonTheme;
 };
 export declare const DocustackMarkdown: (props: Props) => import("solid-js").JSX.Element;
 export {};

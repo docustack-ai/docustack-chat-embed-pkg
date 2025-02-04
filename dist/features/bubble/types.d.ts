@@ -46,8 +46,7 @@ export type ChatWindowTheme = {
     showTitle?: boolean;
     titleBackgroundColor?: string;
     titleTextColor?: string;
-    buttonColor?: string;
-    buttonTextColor?: string;
+    button?: ChatButtonTheme;
     showAgentMessages?: boolean;
     title?: string;
     titleAvatarSrc?: string;
@@ -70,6 +69,12 @@ export type ChatWindowTheme = {
     clearChatOnReload?: boolean;
     dateTimeToggle?: DateTimeToggleTheme;
     renderHTML?: boolean;
+};
+export type ChatButtonTheme = {
+    backgroundColor?: string;
+    textColor?: string;
+    hoverBackgroundColor?: string;
+    hoverTextColor?: string;
 };
 export type ButtonTheme = {
     size?: 'small' | 'medium' | 'large' | number;

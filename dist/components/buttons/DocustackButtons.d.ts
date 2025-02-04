@@ -1,10 +1,9 @@
+import { ChatButtonTheme } from '@/features/bubble/types';
 type DocustackButtonsProps = {
-    buttonColor?: string;
+    buttonTheme?: ChatButtonTheme;
     class?: string;
     customStyle: any;
     onSubmit: (value: string) => void;
-    buttonTextColor?: string;
-    buttonBackgroundColor?: string;
     data: {
         label: string;
         value: string;

@@ -1,3 +1,4 @@
+import { ChatButtonTheme } from '@/features/bubble/types';
 interface DocustackCarouselProps {
     isFullBotScreen?: boolean;
     data?: {
@@ -7,8 +8,7 @@ interface DocustackCarouselProps {
     customData?: any;
     bubbleBackgroundColor?: string;
     bubbleTextColor?: string;
-    buttonColor?: string;
-    buttonTextColor?: string;
+    buttonTheme?: ChatButtonTheme;
 }
 declare const DocustackCarousel: (props: DocustackCarouselProps) => import("solid-js").JSX.Element;
 export default DocustackCarousel;
