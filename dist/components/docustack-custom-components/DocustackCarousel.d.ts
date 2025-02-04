@@ -7,6 +7,8 @@ interface DocustackCarouselProps {
     customData?: any;
     bubbleBackgroundColor?: string;
     bubbleTextColor?: string;
+    buttonColor?: string;
+    buttonTextColor?: string;
 }
 declare const DocustackCarousel: (props: DocustackCarouselProps) => import("solid-js").JSX.Element;
 export default DocustackCarousel;

@@ -25,6 +25,8 @@ type Props = {
     isFullBotScreen?: boolean;
     bubbleBackgroundColor?: string;
     bubbleTextColor?: string;
+    buttonColor?: string;
+    buttonTextColor?: string;
 };
 export declare const BotBubble: (props: Props) => import("solid-js").JSX.Element;
 export {};

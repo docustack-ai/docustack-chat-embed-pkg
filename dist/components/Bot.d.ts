@@ -85,6 +85,8 @@ export type BotProps = {
     bubbleTextColor?: string;
     titleBackgroundColor?: string;
     titleTextColor?: string;
+    buttonColor?: string;
+    buttonTextColor?: string;
     showTitle?: boolean;
     showAgentMessages?: boolean;
     title?: string;

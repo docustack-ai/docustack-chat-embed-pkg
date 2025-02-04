@@ -3,6 +3,8 @@ type DocustackButtonsProps = {
     class?: string;
     customStyle: any;
     onSubmit: (value: string) => void;
+    buttonTextColor?: string;
+    buttonBackgroundColor?: string;
     data: {
         label: string;
         value: string;

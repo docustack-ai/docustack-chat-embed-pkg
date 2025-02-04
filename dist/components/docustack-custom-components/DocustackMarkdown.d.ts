@@ -8,6 +8,8 @@ type Props = {
     bubbleBackgroundColor?: string;
     bubbleTextColor?: string;
     message: string;
+    buttonColor?: string;
+    buttonTextColor?: string;
 };
 export declare const DocustackMarkdown: (props: Props) => import("solid-js").JSX.Element;
 export {};
