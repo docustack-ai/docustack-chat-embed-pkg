@@ -38,6 +38,11 @@ export type FooterTheme = {
     text?: string;
     company?: string;
     companyLink?: string;
+    disclaimer?: {
+        textColor?: string;
+        text?: string;
+        showDisclaimer?: boolean;
+    };
 };
 export type FeedbackTheme = {
     color?: string;
