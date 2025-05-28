@@ -20,7 +20,7 @@ type Props = {
     showAgentMessages?: boolean;
     sourceDocsTitle?: string;
     renderHTML?: boolean;
-    handleActionClick: (label: string, action: IAction | undefined | null) => void;
+    handleActionClick: (elem: any, action: IAction | undefined | null) => void;
     handleSourceDocumentsClick: (src: any) => void;
     onSubmit: (value: string) => void;
     isFullBotScreen?: boolean;

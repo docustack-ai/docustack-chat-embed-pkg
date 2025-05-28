@@ -6,6 +6,12 @@ export type BubbleTheme = {
     button?: ButtonTheme;
     tooltip?: ToolTipTheme;
     disclaimer?: DisclaimerPopUpTheme;
+    customCSS?: string;
+    form?: FormTheme;
+};
+export type FormTheme = {
+    backgroundColor?: string;
+    textColor?: string;
 };
 export type TextInputTheme = {
     backgroundColor?: string;
@@ -55,6 +61,8 @@ export type ChatWindowTheme = {
     showAgentMessages?: boolean;
     title?: string;
     titleAvatarSrc?: string;
+    titleTextColor?: string;
+    titleBackgroundColor?: string;
     welcomeMessage?: string;
     errorMessage?: string;
     backgroundColor?: string;
@@ -106,7 +114,14 @@ export type autoWindowOpenTheme = {
 export type DisclaimerPopUpTheme = {
     title?: string;
     message?: string;
+    textColor?: string;
+    buttonColor?: string;
+    buttonTextColor?: string;
     buttonText?: string;
+    blurredBackgroundColor?: string;
+    backgroundColor?: string;
+    denyButtonBgColor?: string;
+    denyButtonText?: string;
 };
 export type DateTimeToggleTheme = {
     date?: boolean;

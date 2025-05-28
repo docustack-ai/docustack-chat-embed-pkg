@@ -2,7 +2,7 @@ import { ChatButtonTheme } from '@/features/bubble/types';
 interface DocustackCarouselProps {
     isFullBotScreen?: boolean;
     data?: {
-        data: any;
+        data: any[];
     };
     onSubmit: (value: string) => void;
     customData?: any;
