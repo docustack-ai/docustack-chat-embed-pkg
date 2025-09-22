@@ -61,6 +61,7 @@ export type ChatWindowTheme = {
     showAgentMessages?: boolean;
     title?: string;
     titleAvatarSrc?: string;
+    titleIconColor?: string;
     welcomeMessage?: string;
     errorMessage?: string;
     backgroundColor?: string;

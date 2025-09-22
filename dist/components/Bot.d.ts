@@ -103,6 +103,7 @@ export type BotProps = {
     showAgentMessages?: boolean;
     title?: string;
     titleAvatarSrc?: string;
+    titleIconColor?: string;
     formBackgroundColor?: string;
     formTextColor?: string;
     fontSize?: number;
