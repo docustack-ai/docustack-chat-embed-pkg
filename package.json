@@ -19,7 +19,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@babel/core": "^7.22.1",
+    "@babel/core": "^7.29.6",
     "@microsoft/fetch-event-source": "^2.0.1",
     "@ts-stack/markdown": "^1.4.0",
     "device-detector-js": "^3.0.3",
